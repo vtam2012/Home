@@ -1,10 +1,19 @@
-.Footer {
+.Contact {
+    display: block;
     color: #fff;
     background-color: #d63031;
     padding: 30px 5px;
     font-family: sans-serif;
     font-weight: 700;
 
+    & link {
+        display: flex;
+    }
+    & a {
+        text-decoration: none;
+        padding: 2rem 4rem;
+        color: #fff;
+    }
     & p {
         margin: 0;
     }

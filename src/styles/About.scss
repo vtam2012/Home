@@ -1,0 +1,16 @@
+.About {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 0.1rem;
+}
+.profile {
+    height: 250px;
+    width: 250px;
+}
+
+.text {
+    text-align: left;
+}

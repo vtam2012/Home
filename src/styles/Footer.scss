@@ -1,13 +1,13 @@
 .Footer {
     position: absolute;
     width: 100%;
-    bottom: 0;
     color: #d63031;
     background-color: #fff;
     font-family: sans-serif;
     font-weight: 700;
 
     & p {
+        padding: 2rem;
         margin: 0;
     }
   }
