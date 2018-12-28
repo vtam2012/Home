@@ -4,6 +4,7 @@ import '../styles/Homepage.scss'
 const Homepage = () => {
   return (
     <div className="home-hero">
+    
     </div>
   );
 };

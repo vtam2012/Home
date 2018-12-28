@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import '../styles/Navbar.scss'
 
 const NavBar = (props) => {
-    
     return (
         <nav className="nav">
             <Link className="nav-link" to='/'>Vincent Tam</Link>

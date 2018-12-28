@@ -1,0 +1,27 @@
+import React from 'react';
+import Button from './Button';
+import Codepen from '../images/icons/codepen.png';
+import Github from '../images/icons/github.png';
+import LinkedIn from '../images/icons/linkedin.png';
+import '../styles/Contact.scss';
+
+const Contact= () => {
+  return (
+    <div className="Contact">
+        <p>Like what you see?</p>
+        <h2> I'd love to hear from you!</h2>
+        <Button text="email"/>
+        <a href='https://www.linkedin.com/in/vincenttamsf14/'>
+            <img src={LinkedIn} alt="LinkedIn" />
+        </a>
+        <a href='https://github.com/vtam2012'>
+            <img src={Github} alt="Codepen" />
+        </a>
+        <a href='https://codepen.io/vtam/'>
+            <img src={Codepen} alt="Codepen" />
+        </a>
+    </div>
+  );
+};
+
+export default Contact;
