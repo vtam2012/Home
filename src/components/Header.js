@@ -11,18 +11,20 @@ class Header extends Component{
       return(
         <div className="Header">
           <img src={SFSkyline} alt="SF Skyline" />
-          <h1>VINCENT TAM</h1>
-          <Typing loop={true} hideCursor={true}>
-            <Typing.Delay ms={1000} />
-            <span class="Header-text">Web Developer</span>
-            <Typing.Backspace count={20} delay={500}/>
-            <Typing.Delay ms={1000} />
-            <span class="Header-text">Tech Enthusiast</span>
-            <Typing.Backspace count={20} delay={500}/>
-            <Typing.Delay ms={1000} />
-            <span class="Header-text">Lifelong Learner</span>
-            <Typing.Backspace count={20} delay={500}/>
-          </Typing>
+          <div className="titleMessage">
+            <h1>VINCENT TAM</h1>
+            <Typing loop={true} hideCursor={true}>
+              <Typing.Delay ms={1000} />
+              <span class="titleMessage-text">Web Developer</span>
+              <Typing.Backspace count={30} delay={500}/>
+              <Typing.Delay ms={1000} />
+              <span class="titleMessage-text">Tech Enthusiast</span>
+              <Typing.Backspace count={30} delay={500}/>
+              <Typing.Delay ms={1000} />
+              <span class="titleMessage-text">Lifelong Learner</span>
+              <Typing.Backspace count={30} delay={500}/>
+            </Typing>
+          </div>
         </div>
       );
     }
