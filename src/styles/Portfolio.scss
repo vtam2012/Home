@@ -9,6 +9,10 @@
     &-link {
         display: flex;
     }
+    & hr {
+        margin-left: 30%;
+        width: 40%;
+    }
     & a {
         text-decoration: none;
         padding: 2rem 4rem;
@@ -16,7 +20,7 @@
     }
     & img {
         height: 250px;
-        width: 250px;
+        width: 450px;
         margin: 0.2rem 3rem 1rem 1rem;
     }
     & p {

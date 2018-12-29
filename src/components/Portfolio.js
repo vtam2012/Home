@@ -9,6 +9,7 @@ const Portfolio= () => {
   return (
     <div className="Portfolio">
         <h1>Portfolio</h1>
+        <hr />
         <ul className="Portfolio-links">
             <img src={Warbler} alt="Warbler" />
             <a href='https://warbler-client-vd.herokuapp.com/'>

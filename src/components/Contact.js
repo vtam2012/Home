@@ -9,9 +9,11 @@ const Contact= () => {
   return (
     <div className="Contact">
         <h2>Like what you see?</h2>
+        <br />
         <hr />
+        <br />
         <p> I'd love to hear from you!</p>
-        <Button text="email"/>
+        <br />
         <ul className="Contact-links">
             <a href='https://www.linkedin.com/in/vincenttamsf14/'>
                 <img src={LinkedIn} alt="LinkedIn" />
