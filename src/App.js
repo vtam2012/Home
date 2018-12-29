@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 import Header from './components/Header';
 import About from './components/About';
+import Skills from './components/Skills';
+import Portfolio  from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './styles/App.scss';
@@ -13,13 +15,15 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="App">
-          <Navbar />
           <Header />
+          <Navbar />
           <About />
+          <Skills />
           <Switch>
             <Route path='/' exact component={Homepage} />
           </Switch>
-          <Contact/>
+          <Portfolio />
+          <Contact />
           <Footer />
         </div>
       </HashRouter>

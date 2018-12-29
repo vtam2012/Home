@@ -1,15 +1,13 @@
 import React from 'react';
-import ProfilePicture from '../images/portfolio/thumbnails/Selfie.jpg';
-import '../styles/Header.scss'
+import '../styles/Header.scss';
+import SFSkyline from '../images/SFSkyline.jpg';
+import Pier14 from '../images/Pier14.jpeg';
+import GoldenGate from '../images/GoldenGate.jpg';
 
 const Header = () => {
   return (
-    <div className="head">
-        <img 
-            src={ProfilePicture} 
-            alt="ProfilePicture"
-            className="profile"
-        />
+    <div className="Header">
+      <img src={SFSkyline} alt="SF Skyline" />
     </div>
   );
 };

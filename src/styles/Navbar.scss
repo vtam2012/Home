@@ -1,12 +1,26 @@
 .nav {
-    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #d63031;
 
-    display: flex;
-    justify-content: space-between;
-    
-    &-link {
+    &-brand{
         text-decoration: none;
         padding: 2rem 1rem;
+        margin-left: 4rem;
+        text-align: left;
         color: #fff;
     }
+}
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #d63031;
+}
+
+.item {
+    text-decoration: none;
+    padding: 2rem 1rem;
+    color: #fff;
 }

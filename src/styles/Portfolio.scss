@@ -1,18 +1,11 @@
-.Contact {
+.Portfolio {
     display: block;
-    color: #fff;
-    background-color: #d63031;
+    color: #d63031;
+    background-color: #fff;
     padding: 30px 5px;
     font-family: sans-serif;
     font-weight: 700;
-    & h2 {
-        font-size: 2em;
-        line-height: 1.35em;
-    }
-    & hr {
-        margin-left: 30%;
-        width: 40%;
-    }
+
     &-link {
         display: flex;
     }
@@ -20,6 +13,11 @@
         text-decoration: none;
         padding: 2rem 4rem;
         color: #fff;
+    }
+    & img {
+        height: 250px;
+        width: 250px;
+        margin: 0.2rem 3rem 1rem 1rem;
     }
     & p {
         margin: 0;

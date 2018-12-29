@@ -1,14 +1,10 @@
-.Contact {
+.Skills {
     display: block;
     color: #fff;
     background-color: #d63031;
     padding: 30px 5px;
     font-family: sans-serif;
     font-weight: 700;
-    & h2 {
-        font-size: 2em;
-        line-height: 1.35em;
-    }
     & hr {
         margin-left: 30%;
         width: 40%;
@@ -16,8 +12,7 @@
     &-link {
         display: flex;
     }
-    & a {
-        text-decoration: none;
+    & img {
         padding: 2rem 4rem;
         color: #fff;
     }
