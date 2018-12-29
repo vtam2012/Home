@@ -16,7 +16,7 @@ const About = () => {
         <br />
         <p>While I started college with the intention of majoring in Computer Science & Engineering, I eventually graduated from the University of California, Davis campus with a Bachelor of Science in Civil Engineering.</p> 
         <br />
-        <p>Upon graduation, I started an internship as a structural engineer. After completion of my internship, I realized the work of a structural engineer was not as glamourous and fun as I thought it would be. At this time, the tech industry exploded, and it seems that programming/coding was beginning to gain traction. I therefore decided to shift my focus towards my second passion for computer science.</p>  
+        <p>Upon graduation, I started an internship as a structural engineer. After completion of my internship, I realized that the work of a structural engineer was not as glamourous and fun as I thought it would be. At this time, the tech industry exploded, and it seems that programming/coding was beginning to gain traction. I therefore decided to shift my focus towards my second passion for computer science.</p>  
         <br />
         <p>Currently, I specialize in building full-stack web applications in React, Redux, and Node. I have included links to some of my works below. Feel free to reach out if you have any questions.</p> 
         <br />
