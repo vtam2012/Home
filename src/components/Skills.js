@@ -8,7 +8,7 @@ import reactlogo from '../images/icons/react.png';
 const Skills = () => {
   return (
     <div className="Skills">
-        <h1>Technical Skills</h1>
+        <h1>TECHNICAL SKILLS</h1>
         <hr />
          <ul className="Skills-links">
             <img src={htmllogo} alt="HTML Logo" />
