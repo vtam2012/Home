@@ -16,6 +16,11 @@ const Contact= () => {
               <span className="btn-text">EMAIL</span>
           </a>
         </Button>
+        <Button>
+          <a href='../Resume/Tam_Vincent_Resume2018.pdf'>
+              <span className="btn-text">RESUME</span>
+          </a>
+        </Button>
         <ul className="Contact-links">
             <a href='https://www.linkedin.com/in/vincenttamsf14/'>
                 <img src={LinkedIn} alt="LinkedIn" />
