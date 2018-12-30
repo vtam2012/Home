@@ -1,18 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbar.scss'
 
 const NavBar = () => {
     return (
         <React.Fragment>
             <nav className="nav">    
-                <Link className="nav-brand" to='/'>Vincent Tam</Link>
+                <Link className="nav-brand" to="/#one"
+                    scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+                    Vincent Tam
+                </Link>
                 <ul className="links">
-                    <Link className="item" to='/'>About</Link>
-                    <Link className="item" to='/'>Skills</Link>
-                    <Link className="item" to='/'>Contact</Link>
-                    <Link className="item" to='/'>Portfolio</Link>
-                    <Link className="item" to='/'>Resume</Link>
+                    <Link className="item" to="/#two"
+                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+                        About
+                    </Link>
+                    <Link className="item" to="/#three"
+                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+                        Skills
+                    </Link>
+                    <Link className="item" to="/#four"
+                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+                        Contact
+                    </Link>
+                    <Link className="item" to="/#five"
+                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+                        Portfolio
+                    </Link>
                 </ul>
             </nav>
         </React.Fragment>

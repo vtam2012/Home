@@ -7,7 +7,7 @@ import '../styles/Contact.scss';
 
 const Contact= () => {
   return (
-    <div className="contact">
+    <div id="four" className="contact">
         <p>Like what you see?</p>
         <h2> I'd love to hear from you!</h2>
         <br />
@@ -17,7 +17,7 @@ const Contact= () => {
           </a>
         </Button>
         <Button>
-          <a href='../../Resume/Tam_Vincent_Resume2018.pdf'>
+          <a href='https://github.com/vtam2012/home/blob/master/src/Resume/Tam_Vincent_Resume2018.pdf'>
               <span className="btn-text">RESUME</span>
           </a>
         </Button>

@@ -26,6 +26,9 @@
     text-decoration: none;
     padding: 2rem 1rem;
     color: #fff;
+    &:last-child {
+        margin-right: 2rem;
+    }
 }
 
 

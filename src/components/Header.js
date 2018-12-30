@@ -1,15 +1,11 @@
 import React, {Component} from 'react';
 import '../styles/Header.scss';
 import Typing from 'react-typing-animation';
-import SFSkyline from '../images/SFSkyline.jpg';
-import Button from './Button';
-import Pier14 from '../images/Pier14.jpeg';
-import GoldenGate from '../images/GoldenGate.jpg';
 
 class Header extends Component{
     render() {
       return(
-        <div className="header">
+        <div id="one" className="header">
           <div className="titleMessage">
             <h1>VINCENT TAM</h1>
             <Typing loop={true} hideCursor={true}>
