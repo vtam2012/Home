@@ -1,4 +1,4 @@
-.Skills {
+.skills {
     display: block;
     color: #fff;
     background-color: #d63031;
@@ -9,8 +9,11 @@
         margin-left: 30%;
         width: 40%;
     }
-    &-link {
+    &-links {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
     }
     & img {
         padding: 2rem 4rem;
@@ -19,4 +22,8 @@
     & p {
         margin: 0;
     }
-  }
+    & li {
+        padding: 2rem 2rem;
+        font-size: 1.6rem;
+    }
+ }
