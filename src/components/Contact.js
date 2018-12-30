@@ -11,6 +11,11 @@ const Contact= () => {
         <p>Like what you see?</p>
         <h2> I'd love to hear from you!</h2>
         <br />
+        <Button>
+          <a href='mailTo:vtam2012@gmail.com'>
+              <span className="btn-text">EMAIL</span>
+          </a>
+        </Button>
         <ul className="Contact-links">
             <a href='https://www.linkedin.com/in/vincenttamsf14/'>
                 <img src={LinkedIn} alt="LinkedIn" />

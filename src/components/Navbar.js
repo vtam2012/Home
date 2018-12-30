@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.scss'
 
-const NavBar = (props) => {
+const NavBar = () => {
     return (
         <React.Fragment>
             <nav className="nav">    

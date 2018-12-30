@@ -32,9 +32,6 @@
 
 @include respond(tab-land) { // width < 900?
     .nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         &-brand{
             margin-left: 0;
             text-align: center;
@@ -47,9 +44,6 @@
 
 @include respond(tab-port) {
     .nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         &-brand{
             margin-left: 0;
             text-align: center;
