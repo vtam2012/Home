@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Homepage from './components/Homepage';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -19,9 +18,6 @@ class App extends Component {
           <Navbar />
           <About />
           <Skills />
-          <Switch>
-            <Route path='/' exact component={Homepage} />
-          </Switch>
           <Portfolio />
           <Contact />
           <Footer />
