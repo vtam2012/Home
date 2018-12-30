@@ -8,7 +8,7 @@ import '../styles/Portfolio.scss';
 const Portfolio= () => {
   return (
     <div className="Portfolio">
-        <h1>Portfolio</h1>
+        <h1>PORTFOLIO</h1>
         <hr />
         <ul className="Portfolio-links">
             <img src={Warbler} alt="Warbler" />

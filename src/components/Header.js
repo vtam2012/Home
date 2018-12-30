@@ -9,20 +9,19 @@ import GoldenGate from '../images/GoldenGate.jpg';
 class Header extends Component{
     render() {
       return(
-        <div className="Header">
-          <img src={SFSkyline} alt="SF Skyline" />
+        <div className="header">
           <div className="titleMessage">
             <h1>VINCENT TAM</h1>
             <Typing loop={true} hideCursor={true}>
-              <Typing.Delay ms={1000} />
+              <Typing.Delay ms={500} />
               <span class="titleMessage-text">Web Developer</span>
-              <Typing.Backspace count={30} delay={500}/>
-              <Typing.Delay ms={1000} />
+              <Typing.Backspace count={30} delay={300}/>
+              <Typing.Delay ms={500} />
               <span class="titleMessage-text">Tech Enthusiast</span>
-              <Typing.Backspace count={30} delay={500}/>
-              <Typing.Delay ms={1000} />
+              <Typing.Backspace count={30} delay={300}/>
+              <Typing.Delay ms={500} />
               <span class="titleMessage-text">Lifelong Learner</span>
-              <Typing.Backspace count={30} delay={500}/>
+              <Typing.Backspace count={30} delay={300}/>
             </Typing>
           </div>
         </div>
