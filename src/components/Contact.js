@@ -17,7 +17,7 @@ const Contact= () => {
           </a>
         </Button>
         <Button>
-          <a href='../Resume/Tam_Vincent_Resume2018.pdf'>
+          <a href='../../Resume/Tam_Vincent_Resume2018.pdf'>
               <span className="btn-text">RESUME</span>
           </a>
         </Button>
