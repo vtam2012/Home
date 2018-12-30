@@ -7,7 +7,7 @@ import '../styles/Contact.scss';
 
 const Contact= () => {
   return (
-    <div className="Contact">
+    <div className="contact">
         <p>Like what you see?</p>
         <h2> I'd love to hear from you!</h2>
         <br />

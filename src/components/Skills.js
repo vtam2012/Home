@@ -11,6 +11,7 @@ const Skills = () => {
     <div className="skills">
         <h1>TECHNICAL SKILLS</h1>
         <hr />
+        <br />
          <ul className="skills-links">
             <h2>FRONTEND: </h2>
             <SkillItem 

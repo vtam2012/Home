@@ -1,4 +1,6 @@
-.Contact {
+@import "./abstracts/mixins";
+
+.contact {
     display: block;
     color: #fff;
     background-color: #d63031;
@@ -13,7 +15,7 @@
         margin-left: 30%;
         width: 40%;
     }
-    &-link {
+    &-links {
         display: flex;
     }
     & a {
@@ -23,5 +25,17 @@
     }
     & p {
         margin: 0;
+    }
+    
+    @include respond(tab-land) { // width < 900?
+        &-links {
+            flex-direction: column;
+        }
+    }
+    
+    @include respond(big-port) {
+        &-links{
+            flex-direction: column;
+        }
     }
   }
