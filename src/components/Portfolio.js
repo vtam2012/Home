@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import ProjectItem from './ProjectItem';
 import Warbler from '../images/portfolio/thumbnails/Warbler.png';
 import FaceRecognition from '../images/portfolio/thumbnails/FaceRecognition.png';
 import BurgerBuilder from '../images/portfolio/thumbnails/BurgerBuilder.png';
@@ -7,24 +7,27 @@ import '../styles/Portfolio.scss';
 
 const Portfolio= () => {
   return (
-    <div className="Portfolio">
+    <div className="portfolio">
         <h1>PORTFOLIO</h1>
+        <br />
         <hr />
-        <ul className="Portfolio-links">
-            <img src={Warbler} alt="Warbler" />
-            <img src={FaceRecognition} alt="Face Recognition" />
-            <img src={BurgerBuilder} alt="Burger Builder" />
-        </ul>
-        <ul className="Portfolio-links">
-            <a href='https://warbler-client-vd.herokuapp.com/'>
-                Warbler
-            </a>
-            <a href='https://face-recognition-vd.herokuapp.com/'>
-                Face Recognition
-            </a>
-            <a href='https://react-my-burger-2018.firebaseapp.com/'>
-                Burger Builder
-            </a>
+        <br />
+        <ul className="portfolio-links">
+           <ProjectItem 
+                name="Warbler" 
+                Imgurl={Warbler}
+                URL={'https://warbler-client-vd.herokuapp.com/'}
+            />
+            <ProjectItem 
+                name="Face Recognition" 
+                Imgurl={FaceRecognition}
+                URL={'https://face-recognition-vd.herokuapp.com/'}
+            />
+            <ProjectItem 
+                name="Burger Builder" 
+                Imgurl={BurgerBuilder}
+                URL={'https://react-my-burger-2018.firebaseapp.com/'}
+            />
         </ul>
     </div>
   );

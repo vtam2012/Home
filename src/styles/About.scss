@@ -1,7 +1,8 @@
-.About {
+.about {
     padding: 10rem 0;
     width: 100%;
     display: flex;
+    flex: 0 0 auto;
     justify-items: center;
    
     color: #333;
@@ -17,6 +18,7 @@
 .profile {
     height: 555px;
     width: 370px;
+    padding-left: 5rem;
 }
 
 .text {
