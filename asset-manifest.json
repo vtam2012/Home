@@ -1,7 +1,7 @@
 {
-  "main.css": "/home/static/css/main.cff057de.chunk.css",
-  "main.js": "/home/static/js/main.8385182e.chunk.js",
-  "main.js.map": "/home/static/js/main.8385182e.chunk.js.map",
+  "main.css": "/home/static/css/main.1d59f34c.chunk.css",
+  "main.js": "/home/static/js/main.938ad672.chunk.js",
+  "main.js.map": "/home/static/js/main.938ad672.chunk.js.map",
   "static/js/1.12f303c5.chunk.js": "/home/static/js/1.12f303c5.chunk.js",
   "static/js/1.12f303c5.chunk.js.map": "/home/static/js/1.12f303c5.chunk.js.map",
   "runtime~main.js": "/home/static/js/runtime~main.e258ea17.js",
@@ -13,8 +13,8 @@
   "static/media/SFSkyline.jpg": "/home/static/media/SFSkyline.8b003e18.jpg",
   "static/media/Pier14.jpeg": "/home/static/media/Pier14.d192c696.jpeg",
   "static/media/Warbler.png": "/home/static/media/Warbler.6c85fe49.png",
-  "static/css/main.cff057de.chunk.css.map": "/home/static/css/main.cff057de.chunk.css.map",
+  "static/css/main.1d59f34c.chunk.css.map": "/home/static/css/main.1d59f34c.chunk.css.map",
   "index.html": "/home/index.html",
-  "precache-manifest.ae5825133677a4d346f05dd41eb69e71.js": "/home/precache-manifest.ae5825133677a4d346f05dd41eb69e71.js",
+  "precache-manifest.2e2ccd5ae5730ca537ff4f872671e02a.js": "/home/precache-manifest.2e2ccd5ae5730ca537ff4f872671e02a.js",
   "service-worker.js": "/home/service-worker.js"
 }

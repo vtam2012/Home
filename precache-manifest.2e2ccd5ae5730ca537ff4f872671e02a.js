@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/FaceRecognition.6f36c8c5.png"
   },
   {
-    "revision": "8385182ebf89374ad96f",
-    "url": "/home/static/css/main.cff057de.chunk.css"
+    "revision": "938ad6726804d821d3a8",
+    "url": "/home/static/css/main.1d59f34c.chunk.css"
   },
   {
     "revision": "12f303c545a5bba1b777",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/Warbler.6c85fe49.png"
   },
   {
-    "revision": "8385182ebf89374ad96f",
-    "url": "/home/static/js/main.8385182e.chunk.js"
+    "revision": "938ad6726804d821d3a8",
+    "url": "/home/static/js/main.938ad672.chunk.js"
   },
   {
     "revision": "f7acec78fa9fb655316e3db59d913de3",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/Pier14.d192c696.jpeg"
   },
   {
-    "revision": "51418e61fc72072be1f986e8efa268fc",
+    "revision": "d9c5363c1ed817153f5dd4be555beffd",
     "url": "/home/index.html"
   }
 ];
