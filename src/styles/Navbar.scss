@@ -43,6 +43,12 @@
     .links {
         flex-direction: column;
     }
+    .item {
+        text-align: center;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 @include respond(tab-port) {
@@ -54,5 +60,11 @@
     }
     .links {
         flex-direction: column;
+    }
+    .item {
+        text-align: center;
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }
