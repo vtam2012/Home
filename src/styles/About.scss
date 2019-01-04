@@ -15,13 +15,28 @@
     & p {
         font-size: 1.6rem;
     }
+    @include respond(phone) { // width < 900?
+        flex-direction: column;
+        align-items: center;
+        & img {
+            width: 300px;
+        }
+    }
 
     @include respond(tab-land) { // width < 900?
         flex-direction: column;
+        align-items: center;
+        & img {
+            width: 350px;
+        }
     }
     
     @include respond(big-port) {
         flex-direction: column;
+        align-items: center;
+        & img {
+            width: 350px;
+        }
     }
 }
 .profile {

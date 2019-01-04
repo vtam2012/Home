@@ -24,12 +24,14 @@
     @include respond(tab-land) { // width < 900?
         &-links {
             flex-direction: column;
+            align-items: center;
         }
     }
     
     @include respond(tab-port) {
         &-links{
             flex-direction: column;
+            align-items: center;
         }
     }
   }
