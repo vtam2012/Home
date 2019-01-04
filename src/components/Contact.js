@@ -11,6 +11,8 @@ const Contact= () => {
         <p>Like what you see?</p>
         <h2> I'd love to hear from you!</h2>
         <br />
+        <h2> Phone: (415) 637- 9064</h2>
+        <br />
         <Button>
           <a href='mailTo:vtam2012@gmail.com'>
               <span className="btn-text">EMAIL</span>
