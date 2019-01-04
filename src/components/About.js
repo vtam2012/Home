@@ -4,7 +4,7 @@ import '../styles/About.scss';
 
 const About = () => {
   return (
-    <div id="two" className="about">
+    <div id="About" className="about">
         <img 
           src={AboutPicture} 
           alt="AboutMePicture"

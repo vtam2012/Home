@@ -5,7 +5,7 @@ import Typing from 'react-typing-animation';
 class Header extends Component{
     render() {
       return(
-        <div id="one" className="header">
+        <div id="Header" className="header">
           <div className="titleMessage">
             <h1>VINCENT TAM</h1>
             <Typing loop={true} hideCursor={true}>
