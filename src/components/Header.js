@@ -3,6 +3,10 @@ import '../styles/Header.scss';
 import Typing from 'react-typing-animation';
 
 class Header extends Component{
+    shouldComponentUpdate() {
+      return false;
+    }
+
     render() {
       return(
         <div id="Header" className="header">
